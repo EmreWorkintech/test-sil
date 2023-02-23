@@ -12,6 +12,7 @@ const sharedConfig = {
       conn.run('PRAGMA foreign_keys = ON', done)
     },
   },
+  connection: { filename: './data/database.db3' }
 }
 
 module.exports = {
